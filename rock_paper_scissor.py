@@ -1,37 +1,3 @@
-# Ask the user to make a choice
-# If choice is not valid
-#     print an error 
-# let computer make a random choice
-# printc choisces (emojis)
-# Detrmine the winner
-# Ask the user if thez want to continue
-# if not
-#     Terminate the game
-# import random
-# choices = ["rock", "paper", "scissor"]
-# emojis = ["🪨", "📄", "✂️"]
-# while True:
-#     user_choice = input("Enter your choice (rock, paper, scissor): ").lower()
-#     if user_choice not in choices:
-#         print("Invalid choice. Please try again.")
-#         continue
-
-#     computer_choice = random.choice(choices)
-#     print(f"You chose: {emojis[choices.index(user_choice)]}")
-#     print(f"Computer chose: {emojis[choices.index(computer_choice)]}")
-
-#     if user_choice == computer_choice:
-#         print("It's a tie!")
-#     elif (user_choice == "rock" and computer_choice == "scissor") or \
-#          (user_choice == "paper" and computer_choice == "rock") or \
-#          (user_choice == "scissor" and computer_choice == "paper"): 
-#         print("You win!")
-#     else:        print("Computer wins!")
-#     play_again = input("Do you want to play again? (yes/no): ").lower()
-#     if play_again != "yes":
-#         print("Thanks for playing! Goodbye!")
-#         break
-    #oder ein andere Möglichkeit:
 import random
 # key -> value
 # r -> 🪨
