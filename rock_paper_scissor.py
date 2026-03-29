@@ -32,3 +32,12 @@ while True:
     should_continue = input("Do you want to play again? (yes/no): ").lower()
     if should_continue == 'no':
         break
+# Ask the user to make a choice
+# If choice is not valid
+#     print an error 
+# let computer make a random choice
+# printc choisces (emojis)
+# Detrmine the winner
+# Ask the user if thez want to continue
+# if not
+#     Terminate the game
